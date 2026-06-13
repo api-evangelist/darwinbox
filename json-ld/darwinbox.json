@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Darwinbox",
+  "url": "https://darwinbox.com",
+  "description": "Darwinbox is a cloud-based HRMS platform offering a REST API for managing employee records, recruitment, performance, payroll, attendance, travel, and workforce analytics in enterprise organizations.",
+  "sameAs": [
+    "https://www.linkedin.com/company/thedarwinbox",
+    "https://x.com/thedarwinbox",
+    "https://github.com/darwinbox"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "integrationsteam@darwinbox.in",
+    "contactType": "technical support"
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Darwinbox API",
+    "description": "REST API for Darwinbox HRMS covering employee management, attendance, recruitment, organizational management, payroll, background verification, project management, and travel.",
+    "url": "https://api-docs.darwinbox.com/"
+  },
+  "knowsAbout": [
+    "HRMS",
+    "Human Resources",
+    "Payroll",
+    "Recruitment",
+    "Performance Management",
+    "Attendance",
+    "Workforce Analytics",
+    "HCM",
+    "Enterprise Software"
+  ]
+}
