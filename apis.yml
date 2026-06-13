@@ -1,0 +1,80 @@
+aid: darwinbox
+name: Darwinbox
+description: >-
+  Darwinbox is a cloud-based HRMS platform offering a REST API for managing
+  employee records, recruitment, performance, payroll, attendance, travel, and
+  workforce analytics in enterprise organizations. The API supports programmatic
+  access to data stored in Darwinbox instances and enables importing data into
+  the platform. Access is provided on a request-only basis to privileged users
+  and supports token-based authentication using SHA512 hashing.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/darwinbox/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - HRMS
+  - HR
+  - Human Resources
+  - Payroll
+  - Recruitment
+  - Performance Management
+  - Attendance
+  - Workforce Analytics
+  - Enterprise
+  - HCM
+apis:
+  - aid: darwinbox:darwinbox-api
+    name: Darwinbox API
+    description: >-
+      REST API for Darwinbox HRMS covering employee management, attendance,
+      recruitment, organizational management, payroll, background verification,
+      project management, and travel. Authentication uses token-based SHA512
+      hashing with admin email, secret key, and epoch timestamp. API access is
+      request-only and available to privileged users.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://api-docs.darwinbox.com/
+    baseURL: https://api.darwinbox.com
+    tags:
+      - Employee Management
+      - Attendance
+      - Recruitment
+      - Payroll
+      - Organizational Management
+      - Background Verification
+      - Project Management
+      - Travel
+    properties:
+      - type: Documentation
+        url: https://api-docs.darwinbox.com/
+      - type: PostmanCollection
+        url: https://www.postman.com/darwinbox-api/darwinbox-integration-team-s-public-workspace/documentation/ej5mbuh/darwinbox-apis
+    contact:
+      - FN: Darwinbox Integration Team
+        email: integrationsteam@darwinbox.in
+common:
+  - type: Website
+    url: https://darwinbox.com
+  - type: Documentation
+    url: https://api-docs.darwinbox.com/
+  - type: GitHubOrg
+    url: https://github.com/darwinbox
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/thedarwinbox
+  - type: Blog
+    url: https://darwinbox.com/blog
+  - type: Pricing
+    url: https://explore.darwinbox.com/lp/request-a-quote
+  - type: StatusPage
+    url: https://darwinbox.com
+  - type: X
+    url: https://x.com/thedarwinbox
+  - type: Plans
+    url: plans/darwinbox-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/darwinbox-rate-limits.yml
+  - type: FinOps
+    url: finops/darwinbox-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,47 @@
+name: Darwinbox Plans and Pricing
+description: >-
+  Darwinbox offers enterprise HRMS pricing on a per-employee, per-month basis
+  with custom quotes for organizations. Pricing varies by organization size and
+  modules required. There is no publicly listed fixed pricing; all plans are
+  quote-based through direct contact with the Darwinbox sales team.
+url: https://explore.darwinbox.com/lp/request-a-quote
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Enterprise
+    description: >-
+      Full-suite HRMS for large enterprises covering all HR modules including
+      recruitment, onboarding, attendance, payroll, performance, and analytics.
+      Pricing is per employee per month and scales with organization size.
+      Typically ranges from approximately $3 to $5 per employee per month
+      depending on headcount and modules selected.
+    type: enterprise
+    pricingModel: per-employee
+    billingCycle: annual
+    pricing:
+      - range: '100 employees'
+        price: '$5 per employee/month'
+      - range: '1000+ employees'
+        price: '$3 per employee/month (estimated)'
+    implementationCosts:
+      - range: 'Small (10 employees)'
+        cost: '$5,000'
+      - range: 'Enterprise (1,000 employees)'
+        cost: '$50,000'
+    features:
+      - Employee Management
+      - Recruitment and Onboarding
+      - Attendance and Time Management
+      - Payroll Processing
+      - Performance Management
+      - Workforce Analytics
+      - Travel Management
+      - Background Verification
+      - Organizational Management
+      - Project Management
+      - API Access (request-only basis)
+    contact: https://explore.darwinbox.com/lp/request-a-quote
+    notes: >-
+      Darwinbox does not offer a free trial. All pricing is custom and
+      quote-based. Contact the sales team for an accurate quote based on
+      specific requirements and organization size.

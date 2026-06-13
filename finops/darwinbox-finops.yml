@@ -1,0 +1,58 @@
+name: Darwinbox FinOps
+description: >-
+  Financial operations guidance for Darwinbox HRMS API usage. Darwinbox
+  operates a custom enterprise pricing model with no publicly fixed tiers.
+  All costs are quote-based per employee per month on an annual subscription.
+  API access is bundled with the enterprise platform subscription and does not
+  carry separate per-call API charges.
+url: https://explore.darwinbox.com/lp/request-a-quote
+created: '2026-06-13'
+modified: '2026-06-13'
+costModel:
+  type: per-employee-subscription
+  billingCycle: annual
+  apiCharges: none
+  description: >-
+    Darwinbox API access is included with the enterprise platform subscription.
+    There are no separate per-call or per-request API fees documented. Cost is
+    driven by the number of employees managed on the platform and the modules
+    selected.
+costFactors:
+  - name: Employee Count
+    description: >-
+      Primary cost driver. Per-employee monthly fee ranges from approximately
+      $3 to $5 depending on organization size and negotiated contract.
+    impact: high
+  - name: Module Selection
+    description: >-
+      Modules such as recruitment, payroll, performance, and analytics may
+      be priced separately or bundled depending on the contract.
+    impact: high
+  - name: Implementation
+    description: >-
+      One-time implementation costs range from approximately $5,000 for small
+      organizations to $50,000 for enterprises with 1,000+ employees.
+    impact: medium
+  - name: API Access
+    description: >-
+      API access is request-only and bundled with the enterprise subscription.
+      No separate API call pricing is documented.
+    impact: low
+optimization:
+  - description: >-
+      Negotiate annual contracts upfront with projected employee headcount to
+      lock in favorable per-employee rates.
+  - description: >-
+      Bundle multiple modules in a single contract negotiation to achieve
+      volume discounts.
+  - description: >-
+      Evaluate whether all HR modules are required or if a subset covers
+      your use case to reduce subscription scope.
+  - description: >-
+      Plan API integration scope early to minimize implementation costs and
+      avoid expensive rework during deployment.
+contacts:
+  - type: Sales
+    url: https://explore.darwinbox.com/lp/request-a-quote
+  - type: Integration
+    email: integrationsteam@darwinbox.in
