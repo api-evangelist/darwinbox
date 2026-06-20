@@ -7,7 +7,7 @@ description: >-
   access to data stored in Darwinbox instances and enables importing data into
   the platform. Access is provided on a request-only basis to privileged users
   and supports token-based authentication using SHA512 hashing.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/darwinbox/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -32,7 +32,7 @@ apis:
       project management, and travel. Authentication uses token-based SHA512
       hashing with admin email, secret key, and epoch timestamp. API access is
       request-only and available to privileged users.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://api-docs.darwinbox.com/
     baseURL: https://api.darwinbox.com
     tags:
