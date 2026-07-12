@@ -53,6 +53,8 @@ apis:
       - FN: Darwinbox Integration Team
         email: integrationsteam@darwinbox.in
 common:
+  - type: DomainSecurity
+    url: security/darwinbox-domain-security.yml
   - type: Website
     url: https://darwinbox.com
   - type: Documentation
