@@ -7,6 +7,17 @@ description: >-
   access to data stored in Darwinbox instances and enables importing data into
   the platform. Access is provided on a request-only basis to privileged users
   and supports token-based authentication using SHA512 hashing.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: enterprise
   onboarding: approval
