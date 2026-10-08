@@ -50,3 +50,16 @@ plans:
       Darwinbox does not offer a free trial. All pricing is custom and
       quote-based. Contact the sales team for an accurate quote based on
       specific requirements and organization size.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Enterprise
+    access: enterprise
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
