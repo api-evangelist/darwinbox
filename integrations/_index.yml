@@ -27,3 +27,28 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: darwinbox-greenhouse-own
+  label: Greenhouse (own)
+  partner: greenhouse
+  partner_name: Greenhouse (own)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://integrations.greenhouse.com/partners/darwinbox
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: darwinbox-okta-own
+  label: Okta (own)
+  partner: okta
+  partner_name: Okta (own)
+  category: Single Sign-On
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.okta.com/integrations/darwinbox/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
